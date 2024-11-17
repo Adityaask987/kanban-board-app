@@ -1,0 +1,35 @@
+.kanban-board {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .kanban-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .columns {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .display-button, .add-button, .down-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .display-button img, .add-button img, .down-button img {
+    width: 24px;
+    height: 24px;
+  }
+  
